@@ -75,7 +75,7 @@
     
          
       
-      // h1 h2 //
+      // h1 h2 h3 //
      
   /* Estilo para todos os títulos */
  
@@ -89,7 +89,7 @@ h2 { font-size: 1.8em;
      color: #e67e22; }
          
 
-h3 { font-size: 1.3em;
+h3 { font-size: 1.6em;
      color: #27ae60; }
      
  
@@ -127,10 +127,10 @@ h3 { font-size: 1.3em;
  
 
   
-h4 { font-size: 1.2em;
+h4 { font-size: 1.4em;
      color: #000; }
      
-h5 { font-size: 1.1em;
+h5 { font-size: 1.2em;
      color: #00FF7F; }
   
 h6 { font-size: 1.0em;
