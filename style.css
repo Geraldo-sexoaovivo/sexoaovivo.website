@@ -140,61 +140,42 @@ h6 { font-size: 1.0em;
      
      
      // Formulário//
-   
-    /* Estilo geral para o formulário */
-.custom-form { 
-  max-width: 100%;
-  margin: 2px auto;
-  padding: 20px;
-  background-color: red;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px blue;  }
 
 
+        
 .form-group {
-  margin-bottom: 15px;  }
+    margin-bottom: 15px; }
+label {
+    display: block;
+    margin-bottom: 5px;  }
+    
+    /* ... seu código anterior ... */
 
-/* Estilo para a label (rótulo) */
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #333; }
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    width: 300px; /* Isso faz todos ficarem grandes */
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box; }
 
-/* Estilo para inputs e selects */
-.form-group input[type="text"],
-.form-group input[type="file"],
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */ }
+/* ... resto do seu código ... */
+  
+input[type="checkbox"] {
+    margin-right: 10px; }
+    
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer; }
+    
+button:hover {
+    background-color: #0056b3; }
 
-/* Efeito ao clicar no input (focus) */
-.form-group input:focus {
-  border-color: #000;
-  outline: none;
-  box-shadow: 0 0 5px #000; }
-
-/* Estilo para o botão de envio */
-button[type="submit"] {
-  width: 70%;
-  padding: 15px;
-  background-color: #BDB76B;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease; border: 1px solid black; }
-
-button[type="submit"]:hover {
-  background-color: #e67e22; border: 1px solid white; }
-
-                
      
-       
-       
+                   
        
    // Contador//
    
