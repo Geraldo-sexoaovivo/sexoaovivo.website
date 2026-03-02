@@ -1,26 +1,31 @@
 
 
-html {                
-    /* Opcional: cor de fundo enquanto a imagem carrega */
-    background-color: white; 
-} 
+body {
+  /* Substitua 'imagem.jpg' pelo caminho da sua imagem */
+  background-image: url('imagem/Sexo-ao-vivo-de-homem-nu-batendo-punheta-e-gozando(2).jpg');
+  
+  /* Faz a imagem cobrir toda a tela */
+  background-size: cover;
+  
+  /* Centraliza a imagem */
+  background-position: center;
+  
+  /* Impede que a imagem se repita */
+  background-repeat: no-repeat;
+  
+  /* Mantém a imagem fixa ao rolar (opcional) */
+  background-attachment: fixed; }
 
-body { 
-    /* --- A MUDANÇA ESTÁ AQUI --- */
-    background-image: url('imagem/Sexo-ao-vivo-de-homem-nu-batendo-punheta-e-gozando(2).jpg'); /* Substitua pelo link da sua foto */
-    background-size: cover;        /* Faz a imagem cobrir todo o fundo */
-    background-position: center;   /* Centraliza a imagem */
-    background-repeat: no-repeat;  /* Não repete a imagem */
-    background-attachment: fixed;  /* (Opcional) A imagem fica fixa ao rolar a página */
-    /* -------------------------- */
+
+
+
     
     border: 1px solid Black; 
     border-radius: 10px;
     margin: 10px;  
     text-align: center; 
     align-items: center; 
-    color: black; 
-}
+    color: black;  }
 
 /* Nota: Verifiquei um erro de sintaxe no seu código:
    * + * { margin-top: 10px; }
