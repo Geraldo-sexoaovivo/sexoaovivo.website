@@ -1,3 +1,35 @@
+/* Garante que a borda e a margem não quebrem o layout (opcional, mas recomendado) */
+* {
+    box-sizing: border-box; }
+
+/* Seleciona todos os itens que você deseja estilizar */
+.container > * {
+    margin: 5px; /* Margem de 5px dos quatro lados */
+    border: 2px solid black; /* Borda de 2px sólida preta */
+    
+    /* Para garantir a centralização */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+
+/* Opcional: Centralizar os itens dentro de um contêiner flex */
+.container {
+    display: flex;
+    flex-direction: column; /* Coloca um em cima do outro, ou row para lado a lado */
+    align-items: center; /* Centraliza horizontalmente */ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 body {
