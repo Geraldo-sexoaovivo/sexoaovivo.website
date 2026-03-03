@@ -60,37 +60,24 @@ body {
     
     // Navegação//
        
-    body { margin: 0;
-           padding: 0; }
-
-
-.navbar {
-    background-color: #1E90FF; 
-    border: 1px solid #000;  
-    padding: 10px; 
-    margin: 3px;  }
-
 
 .navbar ul {
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    display: flex;         
-    justify-content: center; 
-    gap: 10px;   }
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens pularem para baixo */
+  justify-content: center; /* Centraliza os itens */
+  padding: 0;
+  list-style: none; }
 
+.navbar li {
+  margin: 5px 10px; /* Adiciona espaçamento entre os botões */ }
 
 .navbar a {
-    text-decoration: none; 
-    color: black;          
-    font-family: Arial, sans-serif;
-    padding: 10px 15px;    
-    display: block; }
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #f0f0f0; /* Exemplo de fundo */
+  border-radius: 5px; }
 
-
-.navbar a:hover {
-    background-color: #555;
-    border-radius: 5px;  }
 
     
       
