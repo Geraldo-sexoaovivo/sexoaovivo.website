@@ -70,3 +70,29 @@ function copiarPix() {
 
 
 
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const video = document.getElementById("meuVideo");
+        const viewCountSpan = document.getElementById("view-count");
+        let viewCount = localStorage.getItem("videoViews") || 0;
+
+        // Exibe o total atual ao carregar a página
+        viewCountSpan.innerText = viewCount;
+
+        // Incrementa quando o vídeo é reproduzido
+        video.addEventListener("play", function() {
+            // Conta apenas uma vez por sessão/recarregamento
+            if (video.currentTime === 0) {
+                viewCount++;
+                localStorage.setItem("videoViews", viewCount);
+                viewCountSpan.innerText = viewCount;
+                
+                // Opcional: Enviar AJAX para o seu servidor aqui para
+                // persistir os dados no banco de dados.
+                console.log("Visualização contabilizada: " + viewCount);
+            }
+        }, { once: false }); // Mude para true se quiser contar apenas 1 play por recarregamento da página
+    });
